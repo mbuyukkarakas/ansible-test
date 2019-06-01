@@ -12,5 +12,5 @@
             args :
               executable : cmd.exe
       - name : ikinci klasörü aç
-            win_command : cmd /c mkdir c:\temp2
+            win_command : cmd /c mkdir c:\temp33
             
