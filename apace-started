@@ -1,5 +1,0 @@
-- hosts: linux
-  - name: Start service httpd, if not started
-      service:
-        name=httpd
-        state=started
