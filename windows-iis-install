@@ -1,22 +1,24 @@
 - name: Install IIS Web-Server with sub features and management tools
-  win_feature:
-    name: Web-Server
-    state: present
-    include_sub_features: True
-    include_management_tools: True
-    register: win_feature
-
-- name : Stop IIS Server
-   win_service:
-    name: W3SVC
-    state: stopped
-
-- name: Install only particular updates based on the KB numbers
-    win_updates:
-      category_name:
-      - SecurityUpdates
-      whitelist:
-        - KB4033428
-        - KB3179574
-      reboot: yes
-      reboot_timeout: 300
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: test
+      win_feature:
+        name: Web-Server
+        state: present
+        include_sub_features: True
+        include_management_tools: True
+        register: win_feature
+    - name : Stop IIS Server
+      win_service:
+        name: W3SVC
+        state: stopped
+    - name: Windows update
+      win_updates:
+         category_names:
+         - SecurityUpdates
+         whitelist:
+         - KB4033428
+         - KB3179574
+         reboot: yes
+         reboot_timeout: 300
