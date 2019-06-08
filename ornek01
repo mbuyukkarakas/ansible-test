@@ -1,0 +1,15 @@
+---
+- hosts: linux
+  order: sorted
+  gather_facts: false
+  remote_user: root
+  tasks:
+    - name: deneme görevi
+      service:
+        name: httpd
+        state: started
+    - name: SElinux enable
+      command: /sbin/setenforce 1
+      ignore_errors: yes
+    - name: /tmp'de dizin aç
+      shell: mkdir /tmp/100 ; ls -l /tmp/100
