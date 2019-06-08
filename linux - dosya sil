@@ -1,0 +1,15 @@
+---
+- hosts: all
+  tasks:
+    - name: belirli tarihten eski dosyaları bul
+      find:
+        paths: /root/x
+        patterns: *.txt
+        age: 1h
+      register: files_to_delete
+
+    - name: buldugun dosyalari sil
+      file:
+        path: "{{ item.path }}"
+        state: absent
+      with_items: "{{ wildcard_files_to_delete.files }}"
