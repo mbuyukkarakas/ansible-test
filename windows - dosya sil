@@ -1,0 +1,15 @@
+---
+- name: Windows dosya bul
+  win_find:
+    paths:
+    - c:\temp
+    - d:\temp
+    recurse: yes
+    patterns: [ '*.log', '*.out' ]
+    age: 2d
+    register: files_to_delete
+- name: windows dosya sil
+  win_file:
+    path: "{{ item.path }}"
+    state: absent
+  with_items: "{{ wildcard_files_to_delete.files }}"
