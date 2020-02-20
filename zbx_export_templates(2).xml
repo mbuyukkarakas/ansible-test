@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.4</version>
+    <date>2020-02-20T13:24:48Z</date>
+    <groups>
+        <group>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>SBX - PC test</template>
+            <name>SBX - PC test</name>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <items>
+                <item>
+                    <name>\Cache\Data Flushes/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Cache\Data Flushes/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Cache\Data Maps/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Cache\Data Maps/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Cache\Lazy Write Flushes/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Cache\Lazy Write Flushes/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Cache\Lazy Write Pages/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Cache\Lazy Write Pages/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\% Committed Bytes In Use</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\% Committed Bytes In Use]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\Cache Bytes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\Cache Bytes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\Cache Faults/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\Cache Faults/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\Committed Bytes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\Committed Bytes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\Page Faults/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\Page Faults/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\Pages/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\Pages/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\Page Writes/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\Page Writes/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\Pool Nonpaged Bytes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\Pool Nonpaged Bytes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Memory\Pool Paged Bytes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Memory\Pool Paged Bytes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Microsoft Winsock BSP\Dropped Datagrams/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Microsoft Winsock BSP\Dropped Datagrams/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Microsoft Winsock BSP\Rejected Connections/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Microsoft Winsock BSP\Rejected Connections/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Objects\Mutexes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Objects\Mutexes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Objects\Processes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Objects\Processes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Objects\Semaphores</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Objects\Semaphores]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Objects\Threads</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Objects\Threads]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Paging File(\??\C:\pagefile.sys)\% Usage</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Paging File(\??\C:\pagefile.sys)\% Usage]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(0, WAN Miniport (Network Monitor))\Interrupt DPC Cycles/sec \Per Processor Network Interface Card Activity(_Total)\Packets Coalesced/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(0, WAN Miniport (Network Monitor))\Interrupt DPC Cycles/sec \Per Processor Network Interface Card Activity(_Total)\Packets Coalesced/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(Total, Intel(R) Ethernet Connection (7) I219-LM)\Miniport Return Packet Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(Total, Intel(R) Ethernet Connection (7) I219-LM)\Miniport Return Packet Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\Build Scatter Gather Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\Build Scatter Gather Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\Interrupt Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\Interrupt Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\Interrupt DPC Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\Interrupt DPC Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\Interrupt DPC Latency Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\Interrupt DPC Latency Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\Miniport RSS Indirection Table Change Cycles</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\Miniport RSS Indirection Table Change Cycles]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\Miniport Send Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\Miniport Send Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\NDIS Receive Indication Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\NDIS Receive Indication Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\NDIS Return Packet Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\NDIS Return Packet Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\NDIS Send Complete Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\NDIS Send Complete Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\NDIS Send Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\NDIS Send Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\Stack Receive Indication Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\Stack Receive Indication Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Activity Cycles(_Total)\Stack Send Complete Cycles/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Activity Cycles(_Total)\Stack Send Complete Cycles/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Per Processor Network Interface Card Activity(_Total)\Low Resource Received Packets/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Per Processor Network Interface Card Activity(_Total)\Low Resource Received Packets/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\% Processor Time</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\% Processor Time]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\% User Time</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\% User Time]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\IO Read Operations/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\IO Read Operations/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\IO Write Operations/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\IO Write Operations/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Page Faults/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Page Faults/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Page File Bytes Peak</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Page File Bytes Peak]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Page File Bytes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Page File Bytes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Pool Nonpaged Bytes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Pool Nonpaged Bytes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Pool Paged Bytes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Pool Paged Bytes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Thread Count</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Thread Count]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Virtual Bytes Peak</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Virtual Bytes Peak]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Virtual Bytes</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Virtual Bytes]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Working Set - Private</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Working Set - Private]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Process(zabbix_agentd)\Working Set</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Process(zabbix_agentd)\Working Set]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Redirector\File Data Operations/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Redirector\File Data Operations/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\Redirector\Packets/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\Redirector\Packets/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\System\Context Switches/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\System\Context Switches/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\System\File Data Operations/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\System\File Data Operations/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\System\System Calls/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\System\System Calls/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\TCPv4\Connection Failures</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\TCPv4\Connection Failures]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\TCPv4\Connections Active</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\TCPv4\Connections Active]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\TCPv4\Connections Reset</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\TCPv4\Connections Reset]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Active Inbound Connections</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Active Inbound Connections]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Active Outbound Connections</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Active Outbound Connections]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Allowed Classifies/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Allowed Classifies/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Inbound Connections Allowed/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Inbound Connections Allowed/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Inbound Connections Blocked/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Inbound Connections Blocked/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Inbound Connections</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Inbound Connections]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Inbound Packets Discarded/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Inbound Packets Discarded/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Outbound Connections Allowed/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Outbound Connections Allowed/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Outbound Connections Blocked/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Outbound Connections Blocked/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Outbound Connections</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Outbound Connections]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Outbound Packets Discarded/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Outbound Packets Discarded/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WFPv6\Packets Discarded/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WFPv6\Packets Discarded/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WinNAT TCP\NumberOfSessions</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WinNAT TCP\NumberOfSessions]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WinNAT TCP\NumSessionsTimedOut</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WinNAT TCP\NumSessionsTimedOut]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WinNAT\Dropped Packets/sec</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WinNAT\Dropped Packets/sec]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+                <item>
+                    <name>\WinNAT\Dropped Packets</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\WinNAT\Dropped Packets]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                    <request_method>POST</request_method>
+                </item>
+                <item>
+                    <name>\TCPv4\Connections Passive</name>
+                    <type>ZABBIX_ACTIVE</type>
+                    <key>perf_counter[\\TCPv4\Connections Passive]</key>
+                    <history>1w</history>
+                    <value_type>FLOAT</value_type>
+                    <description>Full counter name: \PhysicalDisk(_Total)\Avg. Disk Read Queue Length</description>
+                </item>
+            </items>
+        </template>
+    </templates>
+</zabbix_export>
